@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "users.apps.UsersConfig",
     "urlshort.apps.UrlshortConfig",
+    "recipes.apps.RecipesConfig",
+    "import_export",
 ]
 
 MIDDLEWARE = [
